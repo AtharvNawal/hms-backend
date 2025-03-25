@@ -18,10 +18,10 @@ cd hms-backend && npm i && node app.js
     POST /user/signup
     ```json
     {
-        "name": "Carl Morris",
-        "email": "carl@email.org",
-        "password": "12345678",
-        "age": 21
+        "name": "Atharv",
+        "email": "Atharv@email.org",
+        "password": "123",
+        "age": 19
     }
     ```
     Response
@@ -42,8 +42,8 @@ cd hms-backend && npm i && node app.js
     GET /user/login
     ```json
     {
-        "email": "carl@email.org",
-        "password": "12345678"
+        "email": "Atharv@email.org",
+        "password": "123"
     }
     ```
     Response
@@ -114,8 +114,8 @@ cd hms-backend && npm i && node app.js
     POST /admin/signup
     ```json
     {
-        "name": "Dennis Vance",
-        "email": "dennis@email.org",
+        "name": "HMS",
+        "email": "HMS@email.org",
         "password": "12345678"
     }
     ```
@@ -159,9 +159,9 @@ cd hms-backend && npm i && node app.js
     POST /admin/addDoc
     ```json
     {
-        "name": "Dr. Stephen",
-        "email": "stephen@email.org",
-        "password": "12345678",
+        "name": "Dr. TEST",
+        "email": "testdr@email.org",
+        "password": "123",
         "specialization": "ENT"
     }
     ```
