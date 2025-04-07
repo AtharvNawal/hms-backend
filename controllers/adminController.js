@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-const Admin = require("../../models/Admin");
-const Doctor = require("../../models/Doctor");
-const Appointment = require("../../models/Appointment");
+const Admin = require("../models/Admin");
+const Doctor = require("../models/Doctor");
+const Appointment = require("../models/Appointment");
 
 exports.addDoc = (req, res) => {
   let { name, email, password, specialization } = req.body;

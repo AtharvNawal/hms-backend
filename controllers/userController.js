@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const bcrypt = require("bcryptjs");
-const Patient = require("../../models/Patient");
-const Appointment = require("../../models/Appointment");
-const Admin = require("../../models/Admin");
+const Patient = require("../models/Patient");
+const Appointment = require("../models/Appointment");
+const Admin = require("../models/Admin");
 
 // ✅ Get Appointments of a Patient
 exports.getApt = async (req, res) => {
