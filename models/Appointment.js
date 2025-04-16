@@ -1,6 +1,10 @@
 const mongoose = require("mongoose");
 
 const Appointment = new mongoose.Schema({
+    name:{
+        type: String,
+        required: true,
+    },
     id: {
         type: mongoose.SchemaTypes.ObjectId,
     },
@@ -22,4 +26,4 @@ const Appointment = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model("appointment", Appointment, "appointment");
+module.exports = mongoose.model("appointment", Appointment);

@@ -1,5 +1,5 @@
 const express = require("express");
-const adminController = require("../controller/adminController");
+const adminController = require("../hms-backend/controllers/adminController");
 
 const router = express();
 

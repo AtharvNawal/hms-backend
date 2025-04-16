@@ -22,4 +22,4 @@ const Patient = new mongoose.Schema({
     },
 });
 
-module.exports = mongoose.model("patient", Patient, "patient");
+module.exports = mongoose.model("patient", Patient);

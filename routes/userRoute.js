@@ -1,5 +1,5 @@
 const express = require("express");
-const userController = require("../controller/userController");
+const userController = require("../hms-backend/controllers/userController");
 const auth = require("../middleware/auth");
 
 router = express();
